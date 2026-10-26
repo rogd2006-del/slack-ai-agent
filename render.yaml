@@ -30,7 +30,7 @@ services:
       - key: COMPANY_NAME
         value: Your Company Name
       - key: COMPANY_PRODUCT
-        value: Your Commercial Productdatabases:
+        value: "Your Commercial Productdatabases: mapping values are not allowed in this context"
   - name: slack-agent-db
     plan: basic-256mb
 
